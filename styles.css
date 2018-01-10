@@ -44,7 +44,7 @@ body{
 #title1 {
   -webkit-animation: shade1 9s infinite; /* Chrome, Safari, Opera */
   animation: shade1 9s infinite;
-  font-size: 1.45em;
+  font-size: 1.43em;
 /*   letter-spacing: .56em;
   text-indent: 0.56em */
 }
