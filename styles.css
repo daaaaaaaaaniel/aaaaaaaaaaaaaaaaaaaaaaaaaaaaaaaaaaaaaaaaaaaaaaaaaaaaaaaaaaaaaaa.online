@@ -92,3 +92,24 @@ body{
 	85% {text-shadow: 20px 10px 30px blue;}
 	100% {text-shadow: 10px 3px 2px yellow;}
 }
+
+#spinner {
+		-webkit-animation: rotation 2s infinite linear;
+		animation: rotation 2s infinite linear;
+}
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+@keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
