@@ -3,20 +3,6 @@
 	src:url(DrukWide-Super-Web.woff);
 }
 
-html{
-  /*font-family:sans-serif;*/
-
-}
-body{
-  font-family:"DrukWide Super Web";
-  margin:0
-  position: absolute;
-  width: 0px;
-  height: 0px;
-  top: 50%;
-  left: 50%;
-}
-
 html,body {
     font-size: 100%;
     -ms-text-size-adjust:100%;
@@ -30,4 +16,14 @@ html,body {
     margin: 0px;
     width: 100%;
     text-align: center;
+}
+
+body{
+  font-family:"DrukWide Super Web";
+  margin:0
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  top: 50%;
+  left: 50%;
 }
