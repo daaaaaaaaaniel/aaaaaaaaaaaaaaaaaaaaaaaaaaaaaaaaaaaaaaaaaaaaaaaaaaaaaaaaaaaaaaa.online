@@ -5,10 +5,24 @@
 
 html{
   /*font-family:sans-serif;*/
-  -ms-text-size-adjust:100%;
-  -webkit-text-size-adjust:100%
+
 }
 body{
   font-family:"DrukWide Super Web";
   margin:0
+}
+
+html,body {
+    font-size: 100%;
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%
+    font: 0.75em/1.5 sans-serif;
+    background: lime; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(transparent, lime 80%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(transparent, lime 80%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(transparent, lime 80%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(transparent, lime 80%); /* Standard syntax (must be last) */
+    margin: 0px;
+    width: 100%;
+    text-align: center;
 }
