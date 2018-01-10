@@ -8,10 +8,26 @@
   <meta content="summary" name="twitter:card"> <!-- for twitter Card preview -->
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <link href="styles.css" rel="stylesheet" type="text/css">
-
 </head>
 
 <body class="body">
 test text :)
+  <script>
+    $("body").css('background-color', 'rgb(0,255,255)');
+    $(document).ready(function(){
+      $(document).scroll(function() {
+          var alpha = 255*($(document).scrollTop()) / (10000-window.innerHeight);
+          console.log('alpha= '+ alpha);
+          var mult = alpha; //scale this number to change hues
+          var channel = Math.round(mult);
+          var channel2 = 255 - Math.round(mult*2);
+          var channel3 = 255*2 - Math.round(mult*2);
+          $("body").css('background-color', 'rgb(' + channel + ',' + channel2 + ',' + channel3 + ')');
+          console.log('ch1= '+ channel);
+          console.log('ch2= '+ channel2);
+          console.log('ch3= '+ channel3);
+      });
+    });
+  </script>
 </body>
 </html>
