@@ -44,8 +44,9 @@ body{
 #title1 {
   -webkit-animation: shade1 9s infinite; /* Chrome, Safari, Opera */
   animation: shade1 9s infinite;
-  letter-spacing: .56em;
-  text-indent: 0.56em
+  font-size: 4.33em;
+/*   letter-spacing: .56em;
+  text-indent: 0.56em */
 }
 @keyframes shade2 {
 	0% {text-shadow: 10px 3px 2px yellow;}
