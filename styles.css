@@ -19,6 +19,10 @@ html,body {
     line-height: .25;
 }
 
+.crane {
+  width: 250px;
+}
+
 body{
 	background: transparent;
 	font-family:"DrukWide Super Web";
