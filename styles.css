@@ -1,6 +1,6 @@
 @font-face {
-	font-family:"DrukWide Heavy Web";
-	src:url(Druk-Web/Druk-Bold-Web.woff);
+	font-family:"DrukWide Super Web";
+	src:url(DrukWide-Super-Web.woff);
 }
 
 html{
@@ -9,6 +9,6 @@ html{
   -webkit-text-size-adjust:100%
 }
 body{
-  font-family:"DrukWide Heavy Web";
+  font-family:"DrukWide Super Web";
   margin:0
 }
