@@ -32,29 +32,56 @@ body{
 	transform: translate(-50%, -50%)
 }
 
-#title {
-  -webkit-animation: shade 9s infinite; /* Chrome, Safari, Opera */
-  animation: shade 9s infinite;
+#title2 {
+  -webkit-animation: shade2 9s infinite; /* Chrome, Safari, Opera */
+  animation: shade2 9s infinite;
 }
-@keyframes shade {
+#title1 {
+  -webkit-animation: shade1 9s infinite; /* Chrome, Safari, Opera */
+  animation: shade1 9s infinite;
+  letter-spacing: .56em;
+  text-indent: 0.56em
+}
+@keyframes shade2 {
+	0% {text-shadow: 10px 3px 2px yellow;}
+	10% {text-shadow: -20px -20px 10px pink;}
+	25% {text-shadow: 5px 20px 20px cyan;}
+	40% {text-shadow: 20px -10px 30px blue;}
+	50% {text-shadow: 10px -3px 2px yellow;}
+	60% {text-shadow: 20px 20px 10px pink;}
+	75% {text-shadow: -5px -20px 20px cyan;}
+	90% {text-shadow: -20px 10px 30px blue;}
+	100% {text-shadow: 10px 3px 2px yellow;}
+}
+@keyframes shade1 {
 	0% {text-shadow: 10px 3px 2px yellow;}
 	15% {text-shadow: 20px -20px 10px pink;}
 	25% {text-shadow: -5px 20px 20px cyan;}
 	35% {text-shadow: -20px -10px 30px blue;}
 	50% {text-shadow: 10px -3px 2px yellow;}
-
 	65% {text-shadow: -20px 20px 10px pink;}
 	75% {text-shadow: 5px -20px 20px cyan;}
 	85% {text-shadow: 20px 10px 30px blue;}
 	100% {text-shadow: 10px 3px 2px yellow;}
 }
-@-webkit-keyframes shade {
+
+@-webkit-keyframes shade2 {
+	0% {text-shadow: 10px 3px 2px yellow;}
+	10% {text-shadow: -20px -20px 10px pink;}
+	25% {text-shadow: 5px 20px 20px cyan;}
+	40% {text-shadow: 20px -10px 30px blue;}
+	50% {text-shadow: 10px -3px 2px yellow;}
+	60% {text-shadow: 20px 20px 10px pink;}
+	75% {text-shadow: -5px -20px 20px cyan;}
+	90% {text-shadow: -20px 10px 30px blue;}
+	100% {text-shadow: 10px 3px 2px yellow;}
+}
+@-webkit-keyframes shade1 {
 	0% {text-shadow: 10px 3px 2px yellow;}
 	15% {text-shadow: 20px -20px 10px pink;}
 	25% {text-shadow: -5px 20px 20px cyan;}
 	35% {text-shadow: -20px -10px 30px blue;}
 	50% {text-shadow: 10px -3px 2px yellow;}
-
 	65% {text-shadow: -20px 20px 10px pink;}
 	75% {text-shadow: 5px -20px 20px cyan;}
 	85% {text-shadow: 20px 10px 30px blue;}
