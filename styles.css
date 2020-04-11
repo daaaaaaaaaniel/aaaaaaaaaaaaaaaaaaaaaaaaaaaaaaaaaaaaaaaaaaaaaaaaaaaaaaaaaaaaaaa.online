@@ -8,11 +8,12 @@ html,body {
     -ms-text-size-adjust:62.5%;
     -webkit-text-size-adjust:62.5%
     font: 0.75em/1.5 sans-serif;
-    background: lime; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(transparent, lime 80%); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(transparent, lime 80%); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(transparent, lime 80%); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(transparent, lime 80%); /* Standard syntax (must be last) */
+		background: #00ff00;
+/*    background: lime; /* For browsers that do not support gradients */
+/*    background: -webkit-linear-gradient(transparent, lime 80%); /* For Safari 5.1 to 6.0 */
+/*    background: -o-linear-gradient(transparent, lime 80%); /* For Opera 11.1 to 12.0 */
+/*    background: -moz-linear-gradient(transparent, lime 80%); /* For Firefox 3.6 to 15 */
+/*    background: linear-gradient(transparent, lime 80%); /* Standard syntax (must be last) */
     margin: 0px;
     width: 100%;
     text-align: center;
