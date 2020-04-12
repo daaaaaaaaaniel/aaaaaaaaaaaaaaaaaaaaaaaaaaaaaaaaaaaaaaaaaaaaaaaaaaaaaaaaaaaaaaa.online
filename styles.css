@@ -9,11 +9,6 @@ html,body {
     -webkit-text-size-adjust:62.5%
     font: 0.75em/1.5 sans-serif;
 		background: #00ff00;
-/*    background: lime; /* For browsers that do not support gradients */
-/*    background: -webkit-linear-gradient(transparent, lime 80%); /* For Safari 5.1 to 6.0 */
-/*    background: -o-linear-gradient(transparent, lime 80%); /* For Opera 11.1 to 12.0 */
-/*    background: -moz-linear-gradient(transparent, lime 80%); /* For Firefox 3.6 to 15 */
-/*    background: linear-gradient(transparent, lime 80%); /* Standard syntax (must be last) */
     margin: 0px;
     width: 100%;
     text-align: center;
@@ -26,7 +21,8 @@ html,body {
 
 body{
 	background: transparent;
-	font-family:"DrukWide Super Web";
+	color: white;
+	font-family:"Eurostile";
 	font-size: 3em;
 	padding: 1em;
 	margin:0px;
@@ -39,79 +35,11 @@ body{
 }
 
 #title2 {
-  -webkit-animation: shade2 9s infinite; /* Chrome, Safari, Opera */
-  animation: shade2 9s infinite;
+
 }
+
 #title1 {
-  -webkit-animation: shade1 9s infinite; /* Chrome, Safari, Opera */
-  animation: shade1 9s infinite;
   /*font-size: 1.43em;*/
   letter-spacing: .56em;
   text-indent: 0.56em
-}
-@keyframes shade2 {
-	0% {text-shadow: 10px 3px 2px yellow;}
-	10% {text-shadow: -20px -20px 10px pink;}
-	25% {text-shadow: 5px 20px 20px cyan;}
-	40% {text-shadow: 20px -10px 30px blue;}
-	50% {text-shadow: 10px -3px 2px yellow;}
-	60% {text-shadow: 20px 20px 10px pink;}
-	75% {text-shadow: -5px -20px 20px cyan;}
-	90% {text-shadow: -20px 10px 30px blue;}
-	100% {text-shadow: 10px 3px 2px yellow;}
-}
-@keyframes shade1 {
-	0% {text-shadow: 10px 3px 2px yellow;}
-	15% {text-shadow: 20px -20px 10px pink;}
-	25% {text-shadow: -5px 20px 20px cyan;}
-	35% {text-shadow: -20px -10px 30px blue;}
-	50% {text-shadow: 10px -3px 2px yellow;}
-	65% {text-shadow: -20px 20px 10px pink;}
-	75% {text-shadow: 5px -20px 20px cyan;}
-	85% {text-shadow: 20px 10px 30px blue;}
-	100% {text-shadow: 10px 3px 2px yellow;}
-}
-
-@-webkit-keyframes shade2 {
-	0% {text-shadow: 10px 3px 2px yellow;}
-	10% {text-shadow: -20px -20px 10px pink;}
-	25% {text-shadow: 5px 20px 20px cyan;}
-	40% {text-shadow: 20px -10px 30px blue;}
-	50% {text-shadow: 10px -3px 2px yellow;}
-	60% {text-shadow: 20px 20px 10px pink;}
-	75% {text-shadow: -5px -20px 20px cyan;}
-	90% {text-shadow: -20px 10px 30px blue;}
-	100% {text-shadow: 10px 3px 2px yellow;}
-}
-@-webkit-keyframes shade1 {
-	0% {text-shadow: 10px 3px 2px yellow;}
-	15% {text-shadow: 20px -20px 10px pink;}
-	25% {text-shadow: -5px 20px 20px cyan;}
-	35% {text-shadow: -20px -10px 30px blue;}
-	50% {text-shadow: 10px -3px 2px yellow;}
-	65% {text-shadow: -20px 20px 10px pink;}
-	75% {text-shadow: 5px -20px 20px cyan;}
-	85% {text-shadow: 20px 10px 30px blue;}
-	100% {text-shadow: 10px 3px 2px yellow;}
-}
-
-#spinner {
-	-webkit-animation: rotation 5s infinite linear;
-	animation: rotation 5s infinite linear;
-}
-@-webkit-keyframes rotation {
-	from {
-		-webkit-transform: rotate(0deg);
-	}
-	to {
-		-webkit-transform: rotate(359deg);
-	}
-}
-@keyframes rotation {
-	from {
-		-webkit-transform: rotate(0deg);
-	}
-	to {
-		-webkit-transform: rotate(359deg);
-	}
 }
